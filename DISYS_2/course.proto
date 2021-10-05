@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+package DISYS_2;
+option go_package ="github.com/xZenshin/DISYS_2";
+
+message Course {
+     string course_name = 1;
+     int32 course_id = 2;
+     int32 course_workload = 3;
+     int32 course_studentsatisfaction = 4;
+}
